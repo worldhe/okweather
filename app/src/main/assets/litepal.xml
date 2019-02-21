@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<litepal>
+    <!--dbname:数据库名-->
+    <dbname value="ok_weather"></dbname>
+
+    <!--version:数据库版本-->
+    <version value="1"></version>
+
+    <!--list标签指定所有的映射模型-->
+    <list>
+        <!--mapping标签 声明我们要配置的映射模型类-->
+        <mapping class="com.zhaowh.okweather.db.Province"/>
+        <mapping class="com.zhaowh.okweather.db.City"/>
+        <mapping class="com.zhaowh.okweather.db.Country"/>
+    </list>
+</litepal>
